@@ -1,0 +1,105 @@
+body {
+  max-width: 1920px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  width: 1112px;
+}
+
+header ul {
+  display: flex;
+  gap: 32px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-width {
+  max-width: 975px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+.ul-flex-card {
+  display: flex;
+  gap: 48px;
+}
+
+.ul-flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 219px;
+}
+
+.ul-flex-price {
+  display: flex;
+  gap: 32px;
+}
+
+.li-card {
+  width: 293px;
+}
+
+.li-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-flex > div {
+  width: 451px;
+}
+
+.ol-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ol-grid > li {
+  width: 293px;
+}
+
+.section-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.div-review {
+  display: flex;
+  gap: 42px;
+}
+
+.div-review > div {
+  width: 680px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  width: 1112px;
+}
